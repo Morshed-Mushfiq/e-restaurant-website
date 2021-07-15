@@ -1,0 +1,147 @@
+* {
+    overflow-x: hidden;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'NotoSans-Regular';
+}
+
+p {
+    font-family: 'Pattaya-Regular';
+}
+
+/* for nav  */
+
+
+
+/* For menu  */
+
+ul li a {
+    font-family: 'NotoSans-Regular';
+    font-size: 20px;
+
+}
+
+ul li a:hover {
+    color: black !important;
+    background: #fff;
+    border-radius: 10px;
+}
+
+/* for slider  */
+
+.carousel-inner {
+    height: 90vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 90vh;
+}
+
+/* for bg1 div  */
+.bg1 {
+    background-image: linear-gradient(rgba(0,0,0,.687), rgba(0,0,0,.704)), url(../img/bg1.jpg);
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bgContents p {
+    font-size: 20px;
+}
+
+/* for services  */
+
+.services {
+    width: 70%;
+    height: 50%;
+    margin: 40px auto 0px;
+    border: 2px solid rgb(0, 67, 145);
+}
+
+/* for menu  */
+
+#c1:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px yellow;
+    z-index: 1000;
+}
+
+#c2:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px yellow;
+    z-index: 1000;
+}
+
+#c3:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px yellow;
+    z-index: 1000;
+}
+
+#c4:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px yellow;
+    z-index: 1000;
+} 
+
+/* sponsored carousel */
+
+#carousel1 {
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+#carousel2 {
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+#carousel3 {
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+/* footer icons  */
+footer .icons a {
+    margin-left: 6px;
+}
+
+.emails a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.emails a:hover {
+    text-decoration: underline;
+    color:rgb(5, 253, 241);
+}
+
+.logos img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
